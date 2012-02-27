@@ -1,0 +1,16 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  main2.cpp
+c:\ogresdk\include\ogre\exampleframelistener.h(343): warning C4244: '+=' : conversion from 'double' to 'Ogre::Real', possible loss of data
+c:\ogresdk\include\ogre\exampleframelistener.h(344): warning C4244: '-=' : conversion from 'double' to 'Ogre::Real', possible loss of data
+c:\ogresdk\include\ogre\exampleframelistener.h(348): warning C4244: 'argument' : conversion from 'double' to 'Ogre::Real', possible loss of data
+c:\ogresdk\include\ogre\exampleframelistener.h(349): warning C4244: 'argument' : conversion from 'double' to 'Ogre::Real', possible loss of data
+c:\ogresdk\include\ogre\exampleframelistener.h(454): warning C4244: '-=' : conversion from 'double' to 'Ogre::Real', possible loss of data
+c:\users\mike\documents\visual studio 2010\projects\mikegleesonlab1\midterm\main2.cpp(107): error C2374: 'translate' : redefinition; multiple initialization
+          c:\users\mike\documents\visual studio 2010\projects\mikegleesonlab1\midterm\main2.cpp(76) : see declaration of 'translate'
+c:\users\mike\documents\visual studio 2010\projects\mikegleesonlab1\midterm\main2.cpp(109): error C2088: '+=' : illegal for class
+c:\users\mike\documents\visual studio 2010\projects\mikegleesonlab1\midterm\main2.cpp(112): error C2088: '+=' : illegal for class
+c:\users\mike\documents\visual studio 2010\projects\mikegleesonlab1\midterm\main2.cpp(115): error C2088: '+=' : illegal for class
+c:\users\mike\documents\visual studio 2010\projects\mikegleesonlab1\midterm\main2.cpp(118): error C2088: '+=' : illegal for class
+c:\users\mike\documents\visual studio 2010\projects\mikegleesonlab1\midterm\main2.cpp(122): error C2088: '*=' : illegal for class
+c:\users\mike\documents\visual studio 2010\projects\mikegleesonlab1\midterm\main2.cpp(127): error C2088: '*' : illegal for class
+c:\users\mike\documents\visual studio 2010\projects\mikegleesonlab1\midterm\main2.cpp(180): error C2661: 'Example1FrameListener::Example1FrameListener' : no overloaded function takes 4 arguments

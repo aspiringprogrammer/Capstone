@@ -1,0 +1,7 @@
+﻿  SampleApp.cpp
+SampleApp.cpp(153): warning C4305: 'argument' : truncation from 'double' to 'Ogre::Real'
+SampleApp.cpp(153): warning C4305: 'argument' : truncation from 'double' to 'Ogre::Real'
+SampleApp.cpp(153): warning C4305: 'argument' : truncation from 'double' to 'Ogre::Real'
+  Generating code
+  Finished generating code
+  OgitorBulletExam.vcxproj -> C:\ogreSDK\bin\release\OgitorBulletExam.exe

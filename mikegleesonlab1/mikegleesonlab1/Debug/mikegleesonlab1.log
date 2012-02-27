@@ -1,0 +1,10 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  Lab9Part2.cpp
+c:\ogresdk\include\ogre\exampleframelistener.h(343): warning C4244: '+=' : conversion from 'double' to 'Ogre::Real', possible loss of data
+c:\ogresdk\include\ogre\exampleframelistener.h(344): warning C4244: '-=' : conversion from 'double' to 'Ogre::Real', possible loss of data
+c:\ogresdk\include\ogre\exampleframelistener.h(348): warning C4244: 'argument' : conversion from 'double' to 'Ogre::Real', possible loss of data
+c:\ogresdk\include\ogre\exampleframelistener.h(349): warning C4244: 'argument' : conversion from 'double' to 'Ogre::Real', possible loss of data
+c:\ogresdk\include\ogre\exampleframelistener.h(454): warning C4244: '-=' : conversion from 'double' to 'Ogre::Real', possible loss of data
+c:\users\mike\documents\visual studio 2010\projects\mikegleesonlab1\mikegleesonlab1\lab9part2.cpp(145): warning C4244: 'initializing' : conversion from 'double' to 'Ogre::Real', possible loss of data
+c:\users\mike\documents\visual studio 2010\projects\mikegleesonlab1\mikegleesonlab1\lab9part2.cpp(162): warning C4244: 'argument' : conversion from 'double' to 'Ogre::Real', possible loss of data
+  mikegleesonlab1.vcxproj -> C:\ogreSDK\bin\debug\mikegleesonlab1.exe
