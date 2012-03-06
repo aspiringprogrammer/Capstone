@@ -37,9 +37,9 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <OutDir>C:\ogreSDK\bin\release\</OutDir>
-    <IncludePath>C:\ogreSDK\include;C:\ogreSDK\include\OGRE;C:\ogreSDK\include\OIS;C:\ogreSDK\boost_1_42;C:\Bullet\bullet-2.78\src;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\ogreSDK\lib\release;C:\ogreSDK\boost_1_42\lib;C:\Bullet\bullet-2.78\msvc\2008\lib\Release;$(LibraryPath)</LibraryPath>
+    <OutDir>D:\ogreSDK\bin\release\</OutDir>
+    <IncludePath>D:\ogreSDK\include;D:\ogreSDK\include\OGRE;D:\ogreSDK\include\OIS;D:\ogreSDK\boost_1_42;D:\Bullet\bullet-2.78\src;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\ogreSDK\lib\release;D:\ogreSDK\boost_1_42\lib;D:\Bullet\bullet-2.78\msvc\2008\lib\Release;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>

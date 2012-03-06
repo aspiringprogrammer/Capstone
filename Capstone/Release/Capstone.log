@@ -1,0 +1,67 @@
+﻿  BaseApplication.cpp
+  BtOgre.cpp
+BtOgre.cpp(215): warning C4244: '=' : conversion from 'double' to 'Ogre::Real', possible loss of data
+BtOgre.cpp(737): warning C4244: 'initializing' : conversion from 'double' to 'const Ogre::Real', possible loss of data
+BtOgre.cpp(782): warning C4244: 'argument' : conversion from 'double' to 'const Ogre::Real', possible loss of data
+BtOgre.cpp(783): warning C4244: 'argument' : conversion from 'double' to 'const Ogre::Real', possible loss of data
+BtOgre.cpp(784): warning C4244: 'argument' : conversion from 'double' to 'const Ogre::Real', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\utility(163): warning C4244: 'initializing' : conversion from 'unsigned short' to 'const unsigned char', possible loss of data
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\utility(255) : see reference to function template instantiation 'std::_Pair_base<_Ty1,_Ty2>::_Pair_base<_Ty,std::vector<Ogre::Vector3>>(_Other1 &&,_Other2 &&)' being compiled
+          with
+          [
+              _Ty1=const unsigned char,
+              _Ty2=std::vector<Ogre::Vector3> *,
+              _Ty=unsigned short,
+              _Other1=unsigned short,
+              _Other2=BtOgre::Vector3Array *
+          ]
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xmemory(208) : see reference to function template instantiation 'std::pair<_Ty1,_Ty2>::pair<unsigned short,BtOgre::Vector3Array*>(std::pair<unsigned short,_Ty2> &&)' being compiled
+          with
+          [
+              _Ty1=const unsigned char,
+              _Ty2=std::vector<Ogre::Vector3> *
+          ]
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xmemory(280) : see reference to function template instantiation 'void std::allocator<_Ty>::construct<std::pair<_Ty1,_Ty2>>(std::pair<const _Kty,_Ty2> ,_Other &&)' being compiled
+          with
+          [
+              _Ty=std::pair<const unsigned char,std::vector<Ogre::Vector3> *>,
+              _Ty1=unsigned short,
+              _Ty2=BtOgre::Vector3Array *,
+              _Kty=unsigned char,
+              _Other=std::pair<unsigned short,BtOgre::Vector3Array *>
+          ]
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xtree(592) : see reference to function template instantiation 'void std::_Cons_val<std::allocator<_Ty>,_Ty,std::pair<_Ty1,_Ty2>>(_Alloc &,std::pair<const _Kty,_Ty2> *,std::pair<_Ty1,_Ty2> &&)' being compiled
+          with
+          [
+              _Ty=std::pair<const unsigned char,std::vector<Ogre::Vector3> *>,
+              _Ty1=unsigned short,
+              _Ty2=BtOgre::Vector3Array *,
+              _Alloc=std::allocator<std::pair<const unsigned char,std::vector<Ogre::Vector3> *>>,
+              _Kty=unsigned char
+          ]
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xtree(755) : see reference to function template instantiation 'std::_Tree_nod<_Traits>::_Node *std::_Tree_val<_Traits>::_Buynode<_Ty>(_Valty &&)' being compiled
+          with
+          [
+              _Traits=std::_Tmap_traits<unsigned char,std::vector<Ogre::Vector3> *,std::less<Ogre::uint8>,std::allocator<std::pair<const unsigned char,std::vector<Ogre::Vector3> *>>,false>,
+              _Ty=std::pair<unsigned short,BtOgre::Vector3Array *>,
+              _Valty=std::pair<unsigned short,BtOgre::Vector3Array *>
+          ]
+          BtOgre.cpp(152) : see reference to function template instantiation 'std::pair<_Ty1,_Ty2> std::_Tree<_Traits>::insert<std::pair<unsigned short,BtOgre::Vector3Array *>>(_Valty &&)' being compiled
+          with
+          [
+              _Ty1=std::_Tree_iterator<std::_Tree_val<std::_Tmap_traits<unsigned char,std::vector<Ogre::Vector3> *,std::less<Ogre::uint8>,std::allocator<std::pair<const unsigned char,std::vector<Ogre::Vector3> *>>,false>>>,
+              _Ty2=bool,
+              _Traits=std::_Tmap_traits<unsigned char,std::vector<Ogre::Vector3> *,std::less<Ogre::uint8>,std::allocator<std::pair<const unsigned char,std::vector<Ogre::Vector3> *>>,false>,
+              _Valty=std::pair<unsigned short,BtOgre::Vector3Array *>
+          ]
+  DotSceneLoader.cpp
+  SampleApp.cpp
+SampleApp.cpp(153): warning C4305: 'argument' : truncation from 'double' to 'Ogre::Real'
+SampleApp.cpp(153): warning C4305: 'argument' : truncation from 'double' to 'Ogre::Real'
+SampleApp.cpp(153): warning C4305: 'argument' : truncation from 'double' to 'Ogre::Real'
+  XInputManager.cpp
+XInputManager.cpp(340): warning C4244: '=' : conversion from 'float' to 'WORD', possible loss of data
+XInputManager.cpp(341): warning C4244: '=' : conversion from 'float' to 'WORD', possible loss of data
+  Generating code
+  Finished generating code
+  Capstone.vcxproj -> D:\ogreSDK\bin\release\Capstone.exe
